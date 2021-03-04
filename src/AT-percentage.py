@@ -5,7 +5,7 @@ VERSION
         1.0
 
 AUTHOR
-        
+	YO tambien        
 
 DESCRIPTION
         Calculate percentage of AT on a genome sequence
