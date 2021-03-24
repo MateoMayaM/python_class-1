@@ -12,6 +12,9 @@ AUTHOR
 DESCRIPTION
   [description]
 
+CATEGORY
+  [category]
+
 USAGE
   [program name][options]
 
