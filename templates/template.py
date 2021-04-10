@@ -29,4 +29,7 @@ INPUT
 OUTPUT
 	[file names and formats]
 
+EXAMPLES
+	[Example 1: Describe the case, the input and output]
+
 '''
