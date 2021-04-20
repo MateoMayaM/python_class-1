@@ -9,3 +9,4 @@ cantidad_de_T = (dna.count('T')) # La variable cantidad_de_T calcula el contenid
 cantidad_de_G = (dna.count('G')) # La variable cantidad_de_G cuenta las 'G' que se encuentran en la secuencia.
 
 print("Cantidad de A: ",cantidad_de_A,", cantidad de C: ",cantidad_de_C,", cantidad de G: ",cantidad_de_G, ", cantidad de T: ",cantidad_de_T)
+# Al final se imprime el contenido de cada base que existe en la secuencia.
