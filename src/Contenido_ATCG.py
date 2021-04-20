@@ -1,4 +1,5 @@
 # Este programa calcula el contenido de las bases 'A', 'C', 'T' y 'G' de una secuencia.
+# La liga de Github donde se encuentra el encabezado de este programa es https://github.com/Danigore25/python_class/blob/master/src/Template_Contenido_ATCG
 
 print('Por favor escriba la secuencia de DNA: \n') # En esta parte se pide al usuario la secuencia de DNA que se va a analizar.
 dna = input() # dna es una variable que guarda la secuencia que escribe el usuario.
