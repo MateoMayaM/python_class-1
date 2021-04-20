@@ -1,0 +1,39 @@
+'''
+NAME
+	Busqueda_codon_secuencia.py
+
+VERSION 
+	1.0
+	
+AUTHOR
+	Daniela Goretti Castillo León <danigore22@gmail.com>
+
+DESCRIPTION
+	Este programa busca el codón de inicio TAC en una secuencia de ADN y ve hasta dónde abarca, tomando en cuenta el codón de paro TAA. Después, imprime la secuencia de ADN 
+  que se transcribe.
+
+CATEGORY
+	Búsqueda de codones en secuencias
+
+USAGE
+	Busqueda_codon_secuencia.py [sin opciones]
+
+ARGUMENTS
+ [sin argumentos]
+
+INPUT
+	dna = 'AAGGTACGTCGCGCGTTATTAGCCTAAT'
+
+OUTPUT
+	El codón de inicio TAC se encuentra en la posición  4 y termina en  26
+  Fragmento de DNA que será transcrito:  TACGTCGCGCGTTATTAGCC
+
+
+EXAMPLES
+	Example 1: Se tiene la secuencia AAGGTACGTCGCGCGTTATTAGCCTAAT (que representa el input del programa), la cual es anotada en la variable adn escrita por el programador. 
+  Después se guarda el codón TAC en la variable inicio, y el codón de paro TAA en la variable paro. Luego se imprime la posición donde se ubica el codón de inicio hasta donde 
+  se ubica el codón de paro más dos (se suma dos dado que la posición del codón es la ubicación de su primer nucleótido, mientras que dos nucleótidos más adelante es el sitio
+  donde termina el codón de paro). Por último, se imprime el fragmento de ADN que será escrito mediante un corte con las variables inicio y paro 
+  (adn[(adn.find(inicio)):(adn.find(paro))])))
+
+'''
