@@ -43,7 +43,7 @@ EXAMPLES
 
 GITHUB LINK
     Liga de GitHub donde se encuentra el programa:
-    Liga de GitHub donde se encuentra el archivo fasta:
+    https://github.com/Danigore25/python_class/blob/master/src/Creacion_archivo_fasta.py
 
 '''
 
