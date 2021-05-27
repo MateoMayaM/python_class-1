@@ -19,9 +19,19 @@ USAGE
 	[program name][options]
 
 ARGUMENTS
-	[name]  [description]
-        [name]  [description]
-	[name]  [description]
+	[name]  [description]	[required/not required]
+        [name]  [description]	[required/not required]
+	[name]  [description]	[required/not required]
+
+PACKAGES
+	[name]	[usage]
+	[name]	[usage]
+	[name]	[usage]
+
+FUNCTIONS
+	[name]	[description]
+	[name]	[description]
+	[name]	[description]
 
 INPUT
 	[files or directories used to run the program and formats]
@@ -31,5 +41,8 @@ OUTPUT
 
 EXAMPLES
 	[Example 1: Describe the case, the input and output]
+	
+GITHUB LINK
+	<url>
 
 '''
