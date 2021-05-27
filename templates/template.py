@@ -20,7 +20,7 @@ USAGE
 
 ARGUMENTS
 	[name]  [description]	[required/not required]
-        [name]  [description]	[required/not required]
+    [name]  [description]	[required/not required]
 	[name]  [description]	[required/not required]
 
 PACKAGES
