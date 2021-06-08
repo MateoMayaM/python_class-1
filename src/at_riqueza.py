@@ -92,9 +92,9 @@ def contenido_at(dna):
 
     except AmbiguousBaseError:
         matches = re.finditer(r"[^ATCG]", dna)
-        if matches:
-            print("Se encontró uno o más caracteres no pertenecientes a bases nucleotídicas: ")
         for m in matches:
+            if m:
+                print("Se encontró uno o más caracteres no pertenecientes a bases nucleotídicas: ")
             base = m.group()
             pos = m.start()
             print(base, " encontrada en posición ", str(pos))
