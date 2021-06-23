@@ -78,9 +78,11 @@ def translating(sequence):
     # 3. Dividir secuencia en tripletes.
     division = [sequence[i:i+3] for i in range(0, len(sequence), 3)]
 
-    # 4. Buscar cada codón en el diccionario, guardar su traducción a aminoácido en una lista e imprimirla.
+    # 4. Buscar cada codón en el diccionario, guardar su traducción a aminoácido en una lista.
     print("La secuencia de DNA traducida a aminoácidos es: ")
     protein = []
     for codon in division:
         protein.append(gencode[codon])
+
+    # 5. Imprimir lista con aminoácidos.
     print(*protein, sep='')
