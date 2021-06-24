@@ -25,7 +25,7 @@ PACKAGES
     proyecto_final          Este paquete contiene a los módulos requeridos que trabajan con una secuencia de DNA.
 
 FUNCTIONS
-    dna_reverse             Regresa la cadena que sería complementaria a la secuencia dada en el input.
+    dna_complement          Regresa la cadena que sería complementaria a la secuencia dada en el input.
 
 INPUT
      Secuencia de ADN.
@@ -36,7 +36,7 @@ OUTPUT
 
 EXAMPLES
     Example 1: Se tiene la secuencia ATGGCGCCGTGA, la cual es escrita por el usuario a través del archivo
-    modulos_final.py. La secuencia entra a la función dna_reverse, donde se revierte la cadena (para obtener la
+    modulos_final.py. La secuencia entra a la función dna_complement, donde se revierte la cadena (para obtener la
     cadena complementaria escrita de 5' a 3'), se reemplaza cada una de las bases por su contraparte (A por T y
     viceversa, y G por C y al revés) poniendo cada base reemplazada en minúsculas (esto se realiza para no confundir las
     bases cambiadas recientemente con las originales). Al final, se imprime la cadena resultante al convertirla en una
