@@ -32,12 +32,12 @@ INPUT
 
 OUTPUT
     Secuencia de ARN (en el caso de transcription.py):
-        Secuencia de RNA perteneciente a la de ADN: <cadena de RNA>
+        Secuencia de RNA perteneciente a la de DNA: <cadena de RNA>
 
 EXAMPLES
     Example 1: Se tiene la secuencia ATGGCGCCGTGA. Esta secuencia entra a la función dna_to_rna disponible en el módulo,
     donde se reemplaza a las bases timina (T) por uracilo (U). Al final, se imprime la cadena resultante. Así, tenemos:
-        Secuencia de RNA perteneciente a la de ADN: AUGGCGCCGUGA
+        Secuencia de RNA perteneciente a la de DNA: AUGGCGCCGUGA
 
 GITHUB LINK
     https://github.com/Danigore25/python_class/blob/master/src/proyecto_final/transcription.py

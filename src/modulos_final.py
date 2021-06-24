@@ -37,7 +37,7 @@ OUTPUT
     Resultados al llamar las funciones de los módulos:
         El porcentaje de GC en la secuencia es:  <contenido de GC calculado> %
         Secuencia de DNA complementaria a la de DNA escrita (hebra no codificante, escrita de 5' a 3'): <cadena>
-        Secuencia de RNA perteneciente a la de ADN: <cadena de RNA>
+        Secuencia de RNA perteneciente a la de DNA: <cadena de RNA>
         La secuencia de DNA traducida a aminoácidos es: <secuencia de aminoácidos>
 
 EXAMPLES
@@ -51,7 +51,7 @@ EXAMPLES
     En este ejemplo en específico se tendrían los siguientes resultados:
         El porcentaje de GC en la secuencia es:  66.67 %
         Secuencia de DNA complementaria a la de DNA escrita (hebra no codificante, escrita de 5' a 3'): TCACGGCGCCAT
-        Secuencia de RNA perteneciente a la de ADN: AUGGCGCCGUGA
+        Secuencia de RNA perteneciente a la de DNA: AUGGCGCCGUGA
         La secuencia de DNA traducida a aminoácidos es:
         MAP
 
@@ -68,7 +68,7 @@ print('Escriba la secuencia de DNA (la hebra codificante escrita de 5\' a 3\')')
 sequence_input = input()
 
 # 3. Llamar a las funciones incluídas dentro de los módulos del paquete.
-proyecto_final.get_gc_content(sequence_input)
-proyecto_final.dna_complement(sequence_input)
-proyecto_final.dna_to_rna(sequence_input)
+# proyecto_final.get_gc_content(sequence_input)
+# proyecto_final.dna_complement(sequence_input)
+# proyecto_final.dna_to_rna(sequence_input)
 proyecto_final.translating(sequence_input)
