@@ -68,7 +68,7 @@ print('Escriba la secuencia de DNA (la hebra codificante escrita de 5\' a 3\')')
 sequence_input = input()
 
 # 3. Llamar a las funciones incluídas dentro de los módulos del paquete.
-proyecto_final.get_gc_content(sequence_input)
-proyecto_final.dna_reverse(sequence_input)
-proyecto_final.dna_to_rna(sequence_input)
+# proyecto_final.get_gc_content(sequence_input)
+# proyecto_final.dna_reverse(sequence_input)
+# proyecto_final.dna_to_rna(sequence_input)
 proyecto_final.translating(sequence_input)
