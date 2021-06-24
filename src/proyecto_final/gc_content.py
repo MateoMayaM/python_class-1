@@ -66,7 +66,7 @@ def get_gc_content(sequence):
     c_count = sequence.count('C')
 
     # 3. Calcular el contenido de ambas bases por cada cien.
-    gc_content = ((g_count + c_count) / length) * 100
+    gc_percentage = ((g_count + c_count) / length) * 100
 
     # 4. Imprimir resultado redondeado con dos decimales.
-    print('El porcentaje de GC en la secuencia es: ', round(gc_content, 2), '%')
+    print('El porcentaje de GC en la secuencia es: ', round(gc_percentage, 2), '%')

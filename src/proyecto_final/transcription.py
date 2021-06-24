@@ -58,4 +58,4 @@ def dna_to_rna(sequence):
     rna = sequence.replace("T", "U")
 
     # 2. Imprimir secuencia de RNA.
-    print(f'Secuencia de RNA perteneciente a la de ADN: {rna}')
+    print(f'Secuencia de RNA perteneciente a la de DNA: {rna}')
