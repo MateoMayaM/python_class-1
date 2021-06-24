@@ -1,6 +1,6 @@
 '''
 NAME
-    modulo2.py
+    complementary.py
 
 VERSION
     1.0
@@ -15,7 +15,7 @@ CATEGORY
     Análisis de secuencias de ADN
 
 USAGE
-    Ejecutar archivo modulos_final.py (en ese archivo se incluye la paquetería que contiene a modulo2.py):
+    Ejecutar archivo modulos_final.py (en ese archivo se incluye la paquetería que contiene a complementary.py):
         modulos_final.py [sin argumentos]
 
 ARGUMENTS
@@ -31,7 +31,7 @@ INPUT
      Secuencia de ADN.
 
 OUTPUT
-    Cadena complementaria (en el caso de modulo2.py):
+    Cadena complementaria (en el caso de complementary.py):
         Secuencia de RNA complementaria a la de DNA escrita (hebra no codificante, escrita de 5' a 3'): <cadena>
 
 EXAMPLES
@@ -44,7 +44,7 @@ EXAMPLES
         Secuencia de RNA complementaria a la de DNA escrita (hebra no codificante, escrita de 5' a 3'): TCACGGCGCCAT
 
 GITHUB LINK
-    https://github.com/Danigore25/python_class/blob/master/src/proyecto_final/modulo2.py
+    https://github.com/Danigore25/python_class/blob/master/src/proyecto_final/complementary.py
     Ejecución: https://github.com/Danigore25/python_class/blob/master/src/modulos_final.py
 
 '''
@@ -52,7 +52,7 @@ GITHUB LINK
 # Definir función.
 
 
-def dna_reverse(sequence):
+def dna_complement(sequence):
     """
     La función dna_conversion calcula la cadena complementaria a la dada por el usuario, regresando la secuencia
     resultante con una orientación de 5' a 3'.
@@ -69,5 +69,5 @@ def dna_reverse(sequence):
     dna = dna.replace("T", "a")
 
     # 3. Imprimir la cadena complementaria, convirtiendo a mayúsculas las bases.
-    print(f"Secuencia de RNA complementaria a la de DNA escrita (hebra no codificante, escrita de 5\' a 3\'): "
+    print(f"Secuencia de DNA complementaria a la de DNA escrita (hebra no codificante, escrita de 5\' a 3\'): "
           f"{dna.upper()}")

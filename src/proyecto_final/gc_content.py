@@ -1,6 +1,6 @@
 '''
 NAME
-    modulo1.py
+    gc_content.py
 
 VERSION
     1.0
@@ -15,7 +15,7 @@ CATEGORY
     Análisis de secuencias de ADN
 
 USAGE
-    Ejecutar archivo modulos_final.py (en ese archivo se incluye la paquetería que contiene a modulo1.py):
+    Ejecutar archivo modulos_final.py (en ese archivo se incluye la paquetería que contiene a gc_content.py):
         modulos_final.py [sin argumentos]
 
 ARGUMENTS
@@ -31,7 +31,7 @@ INPUT
      Secuencia de ADN.
 
 OUTPUT
-    Contenido de GC de la secuencia (en el caso de modulo1.py):
+    Contenido de GC de la secuencia (en el caso de gc_content.py):
         El porcentaje de GC en la secuencia es:  <contenido de GC calculado> %
 
 EXAMPLES
@@ -43,7 +43,7 @@ EXAMPLES
         El porcentaje de GC en la secuencia es:  66.67 %
 
 GITHUB LINK
-    https://github.com/Danigore25/python_class/blob/master/src/proyecto_final/modulo1.py
+    https://github.com/Danigore25/python_class/blob/master/src/proyecto_final/gc_content.py
     Ejecución: https://github.com/Danigore25/python_class/blob/master/src/modulos_final.py
 
 '''

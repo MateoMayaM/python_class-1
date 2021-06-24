@@ -26,7 +26,7 @@ PACKAGES
 
 FUNCTIONS
     get_gc_content          Calcula el contenido de las bases G y C juntas de una secuencia de DNA.
-    dna_reverse             Regresa la cadena que sería complementaria a la secuencia dada en el input.
+    dna_complement          Regresa la cadena que sería complementaria a la secuencia dada en el input.
     dna_to_rna              Convierte la cadena de DNA dada en RNA.
     translating             Traduce la secuencia de DNA dada por el usuario a sus aminoácidos correspondientes.
 
@@ -36,8 +36,8 @@ INPUT
 OUTPUT
     Resultados al llamar las funciones de los módulos:
         El porcentaje de GC en la secuencia es:  <contenido de GC calculado> %
-        Secuencia de RNA complementaria a la de DNA escrita (hebra no codificante, escrita de 5' a 3'): <cadena>
-        Secuencia de mRNA perteneciente a la de ADN: <cadena de RNA>
+        Secuencia de DNA complementaria a la de DNA escrita (hebra no codificante, escrita de 5' a 3'): <cadena>
+        Secuencia de RNA perteneciente a la de ADN: <cadena de RNA>
         La secuencia de DNA traducida a aminoácidos es: <secuencia de aminoácidos>
 
 EXAMPLES
@@ -45,13 +45,13 @@ EXAMPLES
     anteriormente a la paquetería para después invocar a las funciones dentro del mismo (no es necesario mencionar
     directamente a cada uno de los módulos en el programa puesto que eso está escrito en el programa __init__.py).
     Dentro de cada función se realiza una actividad distinta: get_gc_content calcula el contenido de GC de la secuencia,
-    dna_reverse muestra lo que sería la cadena complementaria a la dada por el usuario escrita de 5' a 3', dna_to_rna
+    dna_complement muestra lo que sería la cadena complementaria a la dada por el usuario escrita de 5' a 3', dna_to_rna
     indica cómo sería la cadena de mRNA si la de ADN se transcribiera y translating muestra la secuencia de aminoácidos
     que se tendría al traducir el DNA.
     En este ejemplo en específico se tendrían los siguientes resultados:
         El porcentaje de GC en la secuencia es:  66.67 %
-        Secuencia de RNA complementaria a la de DNA escrita (hebra no codificante, escrita de 5' a 3'): TCACGGCGCCAT
-        Secuencia de mRNA perteneciente a la de ADN: AUGGCGCCGUGA
+        Secuencia de DNA complementaria a la de DNA escrita (hebra no codificante, escrita de 5' a 3'): TCACGGCGCCAT
+        Secuencia de RNA perteneciente a la de ADN: AUGGCGCCGUGA
         La secuencia de DNA traducida a aminoácidos es:
         MAP
 
@@ -68,7 +68,7 @@ print('Escriba la secuencia de DNA (la hebra codificante escrita de 5\' a 3\')')
 sequence_input = input()
 
 # 3. Llamar a las funciones incluídas dentro de los módulos del paquete.
-# proyecto_final.get_gc_content(sequence_input)
-# proyecto_final.dna_reverse(sequence_input)
-# proyecto_final.dna_to_rna(sequence_input)
+proyecto_final.get_gc_content(sequence_input)
+proyecto_final.dna_complement(sequence_input)
+proyecto_final.dna_to_rna(sequence_input)
 proyecto_final.translating(sequence_input)

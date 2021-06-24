@@ -1,6 +1,6 @@
 '''
 NAME
-    modulo4.py
+    translation.py
 
 VERSION
     1.0
@@ -15,7 +15,7 @@ CATEGORY
     Búsqueda de codones en secuencias
 
 USAGE
-    Ejecutar archivo modulos_final.py (en ese archivo se incluye la paquetería que contiene a modulo4.py):
+    Ejecutar archivo modulos_final.py (en ese archivo se incluye la paquetería que contiene a translation.py):
         modulos_final.py [sin argumentos]
 
 ARGUMENTS
@@ -31,7 +31,7 @@ INPUT
      Secuencia de ADN.
 
 OUTPUT
-    Secuencia de aminoácidos (en el caso de modulo4.py):
+    Secuencia de aminoácidos (en el caso de translation.py):
         La secuencia de DNA traducida a aminoácidos es: <secuencia de aminoácidos>
 
 EXAMPLES
@@ -45,7 +45,7 @@ EXAMPLES
     NOTA: No aparece la equivalencia del último codón dado que éste marca un paro en la secuencia de aminoácidos.
 
 GITHUB LINK
-    https://github.com/Danigore25/python_class/blob/master/src/proyecto_final/modulo4.py
+    https://github.com/Danigore25/python_class/blob/master/src/proyecto_final/translation.py
     Ejecución: https://github.com/Danigore25/python_class/blob/master/src/modulos_final.py
 
 '''

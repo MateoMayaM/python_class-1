@@ -1,6 +1,6 @@
 '''
 NAME
-    modulo3.py
+    transcription.py
 
 VERSION
     1.0
@@ -15,7 +15,7 @@ CATEGORY
     Análisis de secuencias de ADN
 
 USAGE
-    Ejecutar archivo modulos_final.py (en ese archivo se incluye la paquetería que contiene a modulo3.py):
+    Ejecutar archivo modulos_final.py (en ese archivo se incluye la paquetería que contiene a transcription.py):
         modulos_final.py [sin argumentos]
 
 ARGUMENTS
@@ -31,16 +31,16 @@ INPUT
      Secuencia de ADN.
 
 OUTPUT
-    Secuencia de ARN (en el caso de modulo3.py):
-        Secuencia de mRNA perteneciente a la de ADN: <cadena de RNA>
+    Secuencia de ARN (en el caso de transcription.py):
+        Secuencia de RNA perteneciente a la de ADN: <cadena de RNA>
 
 EXAMPLES
     Example 1: Se tiene la secuencia ATGGCGCCGTGA. Esta secuencia entra a la función dna_to_rna disponible en el módulo,
     donde se reemplaza a las bases timina (T) por uracilo (U). Al final, se imprime la cadena resultante. Así, tenemos:
-        Secuencia de mRNA perteneciente a la de ADN: AUGGCGCCGUGA
+        Secuencia de RNA perteneciente a la de ADN: AUGGCGCCGUGA
 
 GITHUB LINK
-    https://github.com/Danigore25/python_class/blob/master/src/proyecto_final/modulo3.py
+    https://github.com/Danigore25/python_class/blob/master/src/proyecto_final/transcription.py
     Ejecución: https://github.com/Danigore25/python_class/blob/master/src/modulos_final.py
 
 '''
@@ -58,4 +58,4 @@ def dna_to_rna(sequence):
     rna = sequence.replace("T", "U")
 
     # 2. Imprimir secuencia de RNA.
-    print(f'Secuencia de mRNA perteneciente a la de ADN: {rna}')
+    print(f'Secuencia de RNA perteneciente a la de ADN: {rna}')
