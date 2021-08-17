@@ -1,4 +1,5 @@
 gcacgactactcgtcatcatcattcg
 gcacgactactcgtcatcatcattcg
 gcacgactactcgtcatcatcattcg
-gcacgactac
+gcacgactacatcgactgctagctag
+atcgatcgactagctagctagatcga
