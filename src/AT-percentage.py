@@ -6,7 +6,8 @@ VERSION
 
 AUTHOR
 	Daniela Goretti Castillo León <gore.cast22@gmail.com>        
-
+	Mateo Maya Martínez <matteo.mayam@outlook.com> :)
+	
 DESCRIPTION
         Calculate percentage of AT on a genome sequence
 
