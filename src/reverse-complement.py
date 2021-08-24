@@ -6,7 +6,7 @@ VERSION
     1.0
     
 AUTHOR
-	YO una vez
+	Daniela Goretti Castillo León
     
 DESCRIPTION
 	Make the reverse complement of DNA sequence
